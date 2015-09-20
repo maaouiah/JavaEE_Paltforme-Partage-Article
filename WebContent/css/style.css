@@ -1,0 +1,76 @@
+body{
+	
+	background: #f4f2ed;
+}
+.pageme{
+	margin-top:60px;
+	border:1px solid #ccc;
+	padding-top: 10px;
+	background: #fff;
+	border-top: 5px solid #c9302c;
+}
+.container{
+	width:70%;
+}
+.clear{
+	clear: both;
+}
+footer{
+	color: #171717;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+
+	color: #fff;
+	background: #C9302C;
+
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	color: #fff;
+	background: #C9302C;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: #000;
+}
+h1, .h1, h2, .h2, h3, .h3{
+	margin-top: 3px;
+	margin-bottom: 10px;
+
+}
+.tagss{
+
+	background: #f7cb5b;
+	border-radius: 10px;
+	padding: 3px;
+	font-size: 10px;
+	color: #ea5d0b;
+}
+.navbar-inverse{
+	background: #f4f2ed ;
+	position: absolute;
+	border-bottom: none;
+}
+.unarticle{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+.tableaustyle{
+	
+	border:1px solid #ccc;
+	border-top:1px solid #333;
+}
+.article{
+	text-align: justify;
+	color:#777777;
+}
+.unarticleless{
+	
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border:1px solid #bce5e5;
+	border-bottom:2px solid #bce5e5;
+	margin-left:10px;
+	padding:5px;
+	background:#edf4f4;
+}

@@ -1,0 +1,19 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+ 
+<persistence-unit name="news" transaction-type="RESOURCE_LOCAL">
+<provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+<class>bean.News</class>
+<class>bean.User</class>
+<class>bean.Categorie</class>
+<properties>
+<property name="openjpa.ConnectionUserName" value="root" />
+<property name="openjpa.ConnectionPassword" value="root" />
+<property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost/jee"/>
+<property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+<property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema" />
+
+</properties>
+</persistence-unit>
+ 
+</persistence>
